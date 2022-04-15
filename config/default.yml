@@ -1,0 +1,9 @@
+logger:
+  name: ts-backend-minimal
+  level: info
+  transport:
+    target: pino-pretty
+    options:
+      translateTime: hh:MM:ss
+      ignore: pid,hostname
+      colorize: true
