@@ -1,5 +1,5 @@
 logger:
-  name: ts-backend-minimal
+  name: terraphobe
   level: info
   transport:
     target: pino-pretty
